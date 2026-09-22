@@ -19,8 +19,26 @@ public class SwitchSemBreak {
                 System.out.println("Sei o Heian Nidan");
             case "amarela":
                 System.out.println("Sei o Heian Shodan");
+                break;
             default:
                 System.out.println("Não sei nada, acabei de começar.");
+        }
+        System.out.println("Fim!");
+
+        // Neste caso, o modelo sem o break não faria sentido, visto que o faixa branca não "saberia nada"
+        // e saberia tudo ao mesmo tempo. O caso a seguir faz mais sentido para ser usado sem o break.
+
+        int idade = 2;
+
+        switch (idade) {
+            case 3:
+                System.out.println("Sabe programar");
+            case 2:
+                System.out.println("Sabe falar");
+            case 1:
+                System.out.println("Sabe andar");
+            case 0:
+                System.out.println("Sabe respirar.");
         }
     }
 }

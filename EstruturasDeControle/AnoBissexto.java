@@ -8,23 +8,23 @@ public class AnoBissexto {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o ano desejado: ");
-        int anoAtual = Integer.parseInt(scanner.nextLine().trim());
+        int ano = Integer.parseInt(scanner.nextLine().trim());
 
-        boolean bissexto = (anoAtual % 4 == 0 && anoAtual % 100 != 0) || (anoAtual % 400 == 0);
+        boolean bissexto = (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
 
         if (bissexto) {
-            System.out.println(anoAtual + " é um ano bissexto.");
+            System.out.println(ano + " é um ano bissexto.");
         } else {
-            System.out.println(anoAtual + " não é um ano bissexto.");
+            System.out.println(ano + " não é um ano bissexto.");
         }
 
             // Forma de resolver o exercício usando a própria API.
-            //    int anoAtual = Year.now().getValue();
+            //    int ano = Year.now().getValue();
             //
-            //    if (Year.isLeap(anoAtual)) {
-            //        System.out.println(anoAtual + " é um ano bissexto.");
+            //    if (Year.isLeap(ano)) {
+            //        System.out.println(ano + " é um ano bissexto.");
             //    } else {
-            //        System.out.println(anoAtual + " não é um ano bissexto.");
+            //        System.out.println(ano + " não é um ano bissexto.");
 
         }
     }

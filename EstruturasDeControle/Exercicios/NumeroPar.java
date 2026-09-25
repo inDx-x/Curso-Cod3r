@@ -1,4 +1,4 @@
-package EstruturasDeControle;
+package EstruturasDeControle.Exercicios;
 
 import java.util.Scanner;
 

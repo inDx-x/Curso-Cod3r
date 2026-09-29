@@ -17,5 +17,6 @@ public class Fahrenheit {
         System.out.printf("A temperatura convertida para  graus Farenheit é: %.2fºF", tempFahrenheit);
 
         scanner.close();
+
     }
 }

@@ -15,6 +15,6 @@ public class CalculoExpoentes {
         System.out.printf("O valor digitado, elevado ao quadrado, é: %.2f.\n", quadrado);
         System.out.printf("O valor digitado, elevado ao cubo, é: %.2f.", cubo);
 
-
+        scanner.close();
     }
 }

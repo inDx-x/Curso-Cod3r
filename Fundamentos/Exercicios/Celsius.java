@@ -20,5 +20,6 @@ public class Celsius {
         System.out.printf("A temperatura convertida para  graus Celsius é: %.2fºC", tempCelsius);
 
         scanner.close();
+
     }
 }

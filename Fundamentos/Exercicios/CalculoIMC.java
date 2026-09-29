@@ -21,5 +21,6 @@ public class CalculoIMC {
         System.out.printf("O IMC da pessoa em questão é: %.2f KG/m².", imc);
 
         scanner.close();
+
     }
 }

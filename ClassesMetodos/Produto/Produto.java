@@ -4,17 +4,16 @@ public class Produto {
 
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25;
 
     // Caso você adicione "void" na frente de um construtor, ele passa a ser um metodo como qualquer outro.
 
     Produto() {
     }
 
-    Produto(String nomeInicial, double precoInicial, double descontInicial) {
+    Produto(String nomeInicial, double precoInicial) {
         nome = nomeInicial;
         preco = precoInicial;
-        desconto = descontInicial;
     }
 
     double precoComDesconto() {

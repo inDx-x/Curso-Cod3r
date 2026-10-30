@@ -1,4 +1,4 @@
-package ArraysCollections.Matriz;
+package ArraysCollections.Arrays.Matriz;
 
 import java.util.Arrays;
 import java.util.Scanner;

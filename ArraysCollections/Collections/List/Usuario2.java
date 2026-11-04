@@ -2,11 +2,11 @@ package ArraysCollections.Collections.List;
 
 import java.util.Objects;
 
-public class UsuarioList {
+public class Usuario2 {
 
     String name;
 
-    public UsuarioList(String name) {
+    public Usuario2(String name) {
         this.name = name;
     }
 
@@ -17,7 +17,7 @@ public class UsuarioList {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        UsuarioList that = (UsuarioList) o;
+        Usuario2 that = (Usuario2) o;
         return Objects.equals(name, that.name);
     }
 
